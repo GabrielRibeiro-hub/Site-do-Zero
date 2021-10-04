@@ -299,6 +299,8 @@ background-color: darkgreen;
 #sendjobs-container h2, #sendjobs-container  p {
     width: 600px;
     color: #fff;
+    font-weight: bold;
+    
     
 
 }
@@ -309,9 +311,9 @@ background-color: darkgreen;
 }
 
 #sendjobs-container p{
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom:50px;
-   
+    font-variant: small-caps;
 }
 
 .light-btn{
@@ -330,3 +332,175 @@ background-color: darkgreen;
     background-color: transparent;
     color: #fff;
 }
+
+
+/*jobfinder  status */
+#status-container{
+    text-align: center;
+    padding: 5em 0 ;
+}
+
+.title-center{
+    font-size:36px;
+    margin-bottom:30px;
+    text-align:center;
+
+}
+
+.p-center{
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+.status-box{
+    display: inline-block;
+    text-align: center;
+    width: 24.5%;
+    margin-top: 80px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    height: 100px;
+}
+
+.status-box:nth-child(2){
+    border: none;
+}
+.status-box:nth-child(3){
+    border-right: none;
+}
+.status-qtd{
+font-size: 36px;
+}
+
+.status-text{
+    font-size: 20px;
+}
+/*testmony container */
+
+#testmony-container{
+    background: url(../img/banner7.jpg) no-repeat;
+    background-size: cover;
+    padding: 10em 0;
+
+}
+
+
+#testmony-container h2 , #testmony-container p {
+    color: #fff;
+    text-align: center;
+}
+
+#testmony-container h2{
+font-size: 36px;
+margin-bottom: 50px;
+
+}
+
+#testmony-container p{
+    margin-bottom: 50px;
+
+}
+.testmony-box{
+    display: inline-block;
+    width: 24.5%;
+    text-align: center;
+}
+
+#testmony-container .testmony-box .testmony-msg{
+    background-color: #fff;
+    color: #666;
+    border-radius: 10px;
+    padding:20px;
+    width: 50%;
+    position: relative;
+    margin: 35px auto;
+    font-style: italic;
+}
+
+/*****triangulo com Css ******/
+.testmony-msg::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px  solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid  #fff ; 
+    position: absolute;
+    bottom:-20px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testmony-box img {
+    width: 100px;
+    height: 100px;
+    border:1px solid #ccc;
+    border-radius: 50%;
+}
+
+.testmony-name{
+    font-weight: bold;
+}
+
+/*****BLOG DA PAGINA ******/
+
+#blog-container{
+    text-align: center;
+    padding: 5em 0 ;
+}
+#blog-container .p-center{
+    margin-bottom: 60px;
+}
+
+.article-box{
+    display: inline-block;
+    width: 31%;
+    padding: 0 1%;
+    text-align: left;
+
+}
+.article-box img {
+     width: 100%;
+     border-radius: 5px;
+     margin-bottom: 10px;
+
+
+}      
+
+.article-box h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.article-box h4 a {
+    text-decoration: none ;
+    color:#666;
+
+}
+
+.article-date{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.article-resume{
+    font-size: 14px;
+    margin-bottom:30px;
+}
+
+.article-btn{
+    background-color: #3381f3;
+    border-color: #3381f3;
+    color: #fff;
+   
+}
+
+.article-btn:hover{
+    background-color: #fff;
+    color: #3381f3;
+}
+
+  add  Estatística ,artigos,feedback,
